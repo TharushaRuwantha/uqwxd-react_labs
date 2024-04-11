@@ -3,7 +3,6 @@ import "./App.css";
 
 const App = () => {
   const [todos, setTodos] = useState([]);
-
   const [todoEditing, setTodoEditing] = useState(null);
   useEffect(() => {
     const json = localStorage.getItem("todos");
